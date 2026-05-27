@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="src/assest/Cover.png" alt="Tactical Intelligence Framework" width="100%"/>
+<img src="src/assest/Write-up Cover.png" alt="Tactical Intelligence Framework" width="100%"/>
 
 # ⚽ Tactical Intelligence Framework
 ### Decoding Team Behavior Through Multi-Layer Soccer Feature Engineering
