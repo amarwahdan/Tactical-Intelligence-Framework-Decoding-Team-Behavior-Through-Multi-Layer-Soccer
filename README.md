@@ -55,18 +55,26 @@ Event Aggregation  →  Phase Shape Dynamics  →  Sequence Intelligence
 <table>
 <tr>
 <td width="50%">
-<img src="src/EDA/SkillCorner Open Data - Exploratory Analysis (10 Matches).png" alt="EDA Analysis"/>
+<img src="src/VISUALIZATION/SkillCorner Open Data - Exploratory Analysis (10 Matches).png" alt="EDA Analysis"/>
 <p align="center"><em>Exploratory Analysis — Pitch Heatmap, Phase Types, Pressing Chain Outcomes (836 unique chains, 75% regain)</em></p>
 </td>
 <td width="50%">
-<img src="src/EDA/feature_dashboard.png" alt="Feature Dashboard"/>
+<img src="src/VISUALIZATION/feature_dashboard.png" alt="Feature Dashboard"/>
 <p align="center"><em>Feature Cluster Dashboard — Pressing Architecture, Team Shape Metrics, Block-Type Recoveries, Press→Shot Chains</em></p>
 </td>
 </tr>
+
 <tr>
 <td colspan="2">
-<img src="src/EDA/team_radar_charts.png" alt="Tactical Fingerprints"/>
+<img src="src/VISUALIZATION/team_radar_charts.png" alt="Tactical Fingerprints"/>
 <p align="center"><em>Team Tactical Fingerprints — 9-Dimension Radar (normalized 0–100). Diverging shapes reveal distinct tactical identities aligned with match outcomes.</em></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<img src="src/VISUALIZATION/correlation_heatmap.png" alt="Feature Correlation Heatmap"/>
+<p align="center"><em>Feature Correlation Matrix — Pairwise correlation analysis across 49 engineered features. Demonstrates orthogonality and zero redundancy (max r < 0.9999), ensuring a robust, independent feature space.</em></p>
 </td>
 </tr>
 </table>
