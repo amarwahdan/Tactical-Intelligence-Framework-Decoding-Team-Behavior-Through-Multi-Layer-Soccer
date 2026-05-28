@@ -77,6 +77,28 @@ Event Aggregation  →  Phase Shape Dynamics  →  Sequence Intelligence
 <p align="center"><em>Feature Correlation Matrix — Pairwise correlation analysis across 49 engineered features. Demonstrates orthogonality and zero redundancy (max r < 0.9999), ensuring a robust, independent feature space.</em></p>
 </td>
 </tr>
+
+<tr>
+<td colspan="2">
+<img src="src/VISUALIZATION/feature_correlation_heatmap.png" alt="Feature Correlation Heatmap"/>
+<p align="center"><em>Interactive dashboard generated from the final features.csv output. All values are raw aggregates with no normalization.</em></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<img src="src/VISUALIZATION/dashboard_behavioral_validation.png" alt="Behavioral Validation —> Winners vs Losers"/>
+<p align="center"><em>Interactive dashboard generated from the final features.csv output. All values are raw aggregates with no normalization.</em></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<img src="src/VISUALIZATION/dashboard_sequence_intelligence.png" alt="Sequence Intelligence"/>
+<p align="center"><em>Interactive dashboard generated from the final features.csv output. All values are raw aggregates with no normalization.</em></p>
+</td>
+</tr>
+
 </table>
 
 ---
@@ -279,7 +301,7 @@ Python 3.10+ required. No ML libraries — all features are deterministic aggreg
   author  = {Amar Ahmed Hamed},
   year    = {2026},
   url     = {https://www.kaggle.com/competitions/soccer-feature-engineering-hackathon/writeups},
-  note    = {Soccer Feature Engineering Hackathon — Feature Engineering Track}
+  note    = {Soccer Feature Engineering Hackathon —> Feature Engineering Track}
 }
 ```
 
