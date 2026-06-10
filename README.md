@@ -74,7 +74,7 @@ Event Aggregation  →  Phase Shape Dynamics  →  Sequence Intelligence
 <tr>
 <td colspan="2">
 <img src="src/VISUALIZATION/correlation_heatmap.png" alt="Feature Correlation Heatmap"/>
-<p align="center"><em>Feature Correlation Matrix — Pairwise correlation analysis across 49 engineered features. Demonstrates orthogonality and zero redundancy (max r < 0.9999), ensuring a robust, independent feature space.</em></p>
+<p align="center"><em>Feature Correlation Matrix — Pairwise correlation analysis across 49 engineered features. Demonstrates orthogonality and low redundancy (max pairwise r = 0.983, with acknowledged territorial cluster correlation — see Limitations 9)</em></p>
 </td>
 </tr>
 
