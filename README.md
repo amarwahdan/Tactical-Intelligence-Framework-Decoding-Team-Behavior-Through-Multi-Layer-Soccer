@@ -48,6 +48,8 @@ Event Aggregation  →  Phase Shape Dynamics  →  Sequence Intelligence
 | 9 | 🧠 **Sequence Intelligence** | **6** | `dynamic_events` | **Sequential patterns** |
 | | **Total** | **49** | **2 sources** | **3 layers** |
 
+**Compliance:** Built exclusively from the official SkillCorner Open Data (`dynamic_events.csv` + `phases_of_play.csv`) — no external tracking files or proprietary structures, ensuring full reproducibility and rules compliance.
+
 ---
 
 ## 📊 Visualizations
