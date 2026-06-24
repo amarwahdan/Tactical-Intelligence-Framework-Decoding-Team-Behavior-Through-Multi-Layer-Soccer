@@ -10,7 +10,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](src/requirements.txt)
 [![Data](https://img.shields.io/badge/Data-SkillCorner%20Open%20Data-00D4AA?style=for-the-badge)](https://github.com/SkillCorner/opendata)
 
-**Soccer Feature Engineering Hackathon · Feature Engineering Track · $4,000 First Prize**
+**Soccer Feature Engineering Hackathon · Feature Engineering Track**
 
 *A-League 2024/25 · 10 Matches · 20 Teams · 49 Novel Features*
 
