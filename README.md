@@ -103,6 +103,13 @@ Event Aggregation  →  Phase Shape Dynamics  →  Sequence Intelligence
 
 <tr>
 <td colspan="2">
+<img src="src/VISUALIZATION/seq_press_to_shot_diagram.png" alt="seq_press_to_shot"/>
+<p align="center"><em>This feature captures the full defensive-to-attacking transition, measuring how successful pressing sequences evolve into immediate shot opportunities.</em></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
 <img src="src/Result/feature_discrimination_landscape.png" alt="Feature Discrimination Diagnostic"/>
 <p align="center"><em>The Feature Discrimination Landscape (Fig. X) visualizes the tactical utility of our 49 features. By mapping the Coefficient of Variation (CV%) against Inter-Team Contrast, we prove that our Sequence Intelligence (Cluster 9) features act as high-leverage Tactical Signatures. These features (e.g., seq_press_to_shot_chains) decisively separate competing teams, capturing rare but critical tactical transitions that traditional volume-based metrics overlook. This landscape confirms that our framework is not just a collection of data points, but a structured hierarchy of tactical indicators.</em></p>
 </td>
