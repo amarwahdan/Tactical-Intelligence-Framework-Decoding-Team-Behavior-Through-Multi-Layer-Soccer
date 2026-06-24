@@ -10,7 +10,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](src/requirements.txt)
 [![Data](https://img.shields.io/badge/Data-SkillCorner%20Open%20Data-00D4AA?style=for-the-badge)](https://github.com/SkillCorner/opendata)
 
-**Soccer Feature Engineering Hackathon · Feature Engineering Track · $4,000 First Prize**
+**Soccer Feature Engineering Hackathon · Feature Engineering Track**
 
 *A-League 2024/25 · 10 Matches · 20 Teams · 49 Novel Features*
 
@@ -267,15 +267,22 @@ The notebook produces `features.csv` — a clean, validated feature matrix:
 ---
 
 ## ✅ Behavioral Validation
-
+ 
 Features are validated against actual A-League 2024/25 match outcomes:
-
-| Feature | Winners (avg) | Draws (avg) | Losers (avg) |
-|---------|:-------------:|:-----------:|:------------:|
-| `press_chain_regain_count` | **17.1** | 12.5 | 10.9 |
-| `attack_events_leading_to_shot` | **37.8** | 16.0 | 25.1 |
-| `terr_events_attacking_third` | **119.1** | 66.5 | 91.2 |
-
+ 
+| Feature | Cluster | Winners (avg) | Draws (avg) | Losers (avg) |
+|---------|---------|:-------------:|:-----------:|:------------:|
+| `press_chain_regain_count` | Pressing | **17.1** | 12.5 | 10.9 |
+| `terr_events_attacking_third` | Territorial | **119.1** | 66.5 | 91.2 |
+| `prog_cumulative_progressive_distance` | Progression | **664.7** | 454.6 | 622.8 |
+| `attack_events_leading_to_shot` | Attacking | **37.8** | 16.0 | 25.1 |
+| `movement_runs_ahead_of_ball` | Movement | **73.7** | 53.5 | 67.6 |
+| `phys_receiver_space_created` | Physical | 483.6 | 514.0 | 473.8 |
+| `state_defending_high_block_phases` | Game State | 14.0 | 23.5 | **25.3** ¹ |
+| `seq_press_to_shot_chains` | Sequence Intel | **1.2** | 0.5 | 0.9 |
+ 
+*Seven of nine clusters show W > L. ¹ C8 inverted by design — teams behind press higher (competitive urgency). C2 excluded: mixed signal (5/9 W, 4/9 L).*
+ 
 **Example:** Melbourne City (won 2-0) recorded 26 press chain regains — highest in the dataset. Melbourne Victory (lost 0-1) recorded only 3.
 
 ---
