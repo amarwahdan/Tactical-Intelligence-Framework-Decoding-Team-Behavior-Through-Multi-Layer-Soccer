@@ -2,6 +2,13 @@
 
 <img src="src/assest/Write-up Cover.png" alt="Tactical Intelligence Framework" width="100%"/>
 
+<p align="center">
+  <strong>🎥 Project Walkthrough & Technical Tutorial</strong><br>
+  <a href="https://youtu.be/fUndffH3uX4">
+    Watch the full project explanation on YouTube
+  </a>
+</p>
+
 # ⚽ Tactical Intelligence Framework
 ### Decoding Team Behavior Through Multi-Layer Soccer Feature Engineering
 
