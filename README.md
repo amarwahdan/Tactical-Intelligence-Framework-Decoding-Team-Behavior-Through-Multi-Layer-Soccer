@@ -274,8 +274,8 @@ The notebook produces `features.csv` — a clean, validated feature matrix:
 
 | match_id | team_id | press_chain_regain_count | seq_press_to_shot_chains | terr_events_attacking_third | ... |
 |----------|---------|:------------------------:|:------------------------:|:----------------------------:|-----|
-| 1886347 | 4177 | 21 | 2 | 141 | ... |
-| 1886347 | 1805 | 10 | 0 | 67 | ... |
+| 1886347 | 4177 | 16 | 1 | 156 | ... |
+| 1886347 | 1805 | 5 | 0 | 51 | ... |
 | ... | ... | ... | ... | ... | ... |
 
 ---
