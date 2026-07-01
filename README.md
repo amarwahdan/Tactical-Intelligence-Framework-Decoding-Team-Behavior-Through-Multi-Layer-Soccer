@@ -191,7 +191,7 @@ for regain_chain in pressing_chains[end_type='regain']:
 Soccer-Feature-Engineering-Hackathon/
 │
 ├── 📓 src/
-│   ├── soccer_TOP1_FINAL.ipynb      # Main notebook — all 49 features
+│   ├── Tactical Intelligence Framework.ipynb      # Main notebook — all 49 features
 │   ├── requirements.txt             # Python dependencies
 │   │
 │   ├── EDA/
@@ -236,7 +236,7 @@ Soccer-Feature-Engineering-Hackathon/
 !pip install pandas numpy matplotlib seaborn
 
 # Run the notebook
-# Open: src/soccer_TOP1_FINAL.ipynb
+# Open: src/Tactical Intelligence Framework.ipynb
 ```
 
 ### Option 2: Local
@@ -250,7 +250,7 @@ cd Soccer-Feature-Engineering-Hackathon
 pip install -r src/requirements.txt
 
 # Launch notebook
-jupyter notebook "src/soccer_TOP1_FINAL.ipynb"
+jupyter notebook "Tactical Intelligence Framework.ipynb"
 ```
 
 > **Note:** The notebook auto-discovers match data via `glob.glob` — no hardcoded match IDs.  
@@ -274,8 +274,8 @@ The notebook produces `features.csv` — a clean, validated feature matrix:
 
 | match_id | team_id | press_chain_regain_count | seq_press_to_shot_chains | terr_events_attacking_third | ... |
 |----------|---------|:------------------------:|:------------------------:|:----------------------------:|-----|
-| 1886347 | 4177 | 21 | 2 | 141 | ... |
-| 1886347 | 1805 | 10 | 0 | 67 | ... |
+| 1886347 | 4177 | 16 | 1 | 156 | ... |
+| 1886347 | 1805 | 5 | 0 | 51 | ... |
 | ... | ... | ... | ... | ... | ... |
 
 ---
