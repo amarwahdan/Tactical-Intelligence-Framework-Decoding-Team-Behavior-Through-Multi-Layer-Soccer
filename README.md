@@ -331,7 +331,7 @@ Python 3.10+ required. No ML libraries — all features are deterministic aggreg
              Through Multi-Layer Soccer Feature Engineering},
   author  = {Amar Ahmed Hamed},
   year    = {2026},
-  url     = {https://www.kaggle.com/competitions/soccer-feature-engineering-hackathon/writeups},
+  url     = {https://www.kaggle.com/competitions/soccer-feature-engineering-hackathon/writeups/new-writeup-1778167401935},
   note    = {Soccer Feature Engineering Hackathon —> Feature Engineering Track}
 }
 ```
